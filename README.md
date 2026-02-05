@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isnanf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-nanf@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-assert-is-nanf/tags). For example,
+
+```javascript
 import isnanf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-nanf@v0.2.3-esm/index.mjs';
 ```
 
@@ -70,7 +75,7 @@ var bool = isnanf( NaN );
 <body>
 <script type="module">
 
-import isnanf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-nanf@v0.2.3-esm/index.mjs';
+import isnanf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-nanf@esm/index.mjs';
 
 var bool = isnanf( NaN );
 // returns true
